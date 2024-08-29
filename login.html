@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <link rel="stylesheet" href="CSS/style.css"/>
+</head>
+<body>
+    <div class="container w-50 d-flex flex-column justify-content-center align-items-center div1 mt-5 p-5 ">
+        <h1 class="mb-3">Smart Login System</h1>
+        <input type="text" name="name" id="nameInputSignup" placeholder="Enter your name (from 3 to 20 character)" class="form-control mb-2">
+        <input type="text" name="email" id="emailInputSignup" placeholder="Enter your Email EX:maya@gmail.com" class="form-control mb-2">
+        <input type="password" name="password" id="passwordSignup" placeholder="Enter your password (at lest 8 character)" class="form-control mb-2 ">
+        <i class="bi bi-eye-slash" id="togglePassword" ></i>
+        <p class="d-none text-danger" id="signerror">All Input Is Required</p>
+        <button class="w-100  p-2 mt-3 mb-2" id="signup" onclick="signupAdd()"> Sign Up</button>
+        <p class="text-white">You have an account?<a href="index.html" class="text-white text-decoration-none">Signin</a></p>
+      </div>
+
+    <script src="JS/style.js"></script>
+</body>
+</html>
